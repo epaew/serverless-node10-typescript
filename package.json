@@ -1,12 +1,23 @@
 {
   "name": "serverless-typescript-node10",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "handler.js",
   "repository": "git@github.com:epaew/serverless-typescript-node10.git",
   "author": "epaew <epaew.333@gmail.com>",
   "license": "UNLICENSED",
   "private": true,
+  "dependencies": {
+    "source-map-support": "^0.5.10"
+  },
   "devDependencies": {
-    "serverless": "^1.56.1"
+    "@types/aws-lambda": "^8.10.17",
+    "@types/node": "^10.12.18",
+    "fork-ts-checker-webpack-plugin": "^3.0.1",
+    "serverless": "^1.56.1",
+    "serverless-webpack": "^5.2.0",
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.2.4",
+    "webpack": "^4.29.0",
+    "webpack-node-externals": "^1.7.2"
   }
 }
